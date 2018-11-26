@@ -9831,7 +9831,7 @@ $as_echo "$lt_cv_ld_force_load" >&6; }
     rhapsody* | darwin1.[012])
       _lt_dar_allow_undefined='$wl-undefined ${wl}suppress' ;;
     darwin1.*)
-      _lt_dar_allow_undefined='$wl-undefined ${wl}suppress' ;;
+      _lt_dar_allow_undefined='$wl-flat_namespace $wl-undefined ${wl}suppress' ;;
     darwin*) # darwin 5.x on
       # if running on 10.5 or later, the deployment target defaults
       # to the OS version, if on x86, and 10.4, the deployment
